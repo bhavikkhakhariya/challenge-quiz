@@ -1,0 +1,55 @@
+.questions-list {
+    text-align: left;
+    max-width: 600px;
+    border: solid 7px #eee;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.questions-list h3 {
+    color: #5d5d5d;
+}
+
+.questions-list .question .alert {
+    cursor: pointer;
+}
+
+.questions-list .question small {
+    color: #b5b5b5;
+    margin-bottom: 30px;
+}
+
+.miniBar > div {
+    height: 100%;
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+}
+
+.miniBar > div.black {
+    background: #000;
+    z-index: 3;
+}
+
+.miniBar > div.grey {
+    background: grey;
+    z-index: 2;
+}
+
+.miniBar > div.light-grey {
+    background: #aaaaad;
+    z-index: 1;
+}
+
+.miniBar {
+    height: 1.5rem;
+    border: 1px solid #dcd5dc;
+    position: relative;
+    margin-right: 0.5rem;
+    width: 100%;
+    background: #ffffff;
+}
+
+.ratings {
+    line-height: 10px;
+}
